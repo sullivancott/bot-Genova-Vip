@@ -233,4 +233,4 @@ if(command === "help") {
 }	
 })	
 
-bot.login(token);	
+bot.login(process.env.token);	
